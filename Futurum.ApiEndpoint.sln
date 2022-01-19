@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Futurum.ApiEndpoint", "src\Futurum.ApiEndpoint\Futurum.ApiEndpoint.csproj", "{892D18C9-73E8-45AB-BA8B-4C9E04A711BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{01B3A329-9492-4F70-8DFC-086EBEA9FE83}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{4022EBCD-11C2-4ADA-874F-D8308A91376E}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = src\Directory.Build.props
+		ci.yml = .github\workflows\ci.yml
+		release.yml = .github\workflows\release.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7D59D077-4DC5-4638-8183-C28C004C5284}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{892D18C9-73E8-45AB-BA8B-4C9E04A711BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892D18C9-73E8-45AB-BA8B-4C9E04A711BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892D18C9-73E8-45AB-BA8B-4C9E04A711BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892D18C9-73E8-45AB-BA8B-4C9E04A711BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
