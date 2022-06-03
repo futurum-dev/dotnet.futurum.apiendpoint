@@ -9,7 +9,7 @@
     <PropertyGroup>
         <PackageId>Futurum.ApiEndpoint</PackageId>
         <PackageIcon>dotnet-logo.png</PackageIcon>
-        <Description>Small dotnet library, that is the base for ApiEndpoints in Futurum.</Description>
+        <Description>A dotnet library, that is the base for ApiEndpoints in Futurum.</Description>
         <PackageProjectUrl>https://www.futurum.dev/projects/dotnet-futurum.html</PackageProjectUrl>
         <RepositoryUrl>https://github.com/futurum-dev/dotnet.futurum.apiendpoint</RepositoryUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -20,9 +20,10 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Futurum.Core" Version="1.0.0" />
-        <PackageReference Include="Futurum.Microsoft.Extensions.DependencyInjection" Version="1.0.0" />
-        <PackageReference Include="Scrutor" Version="3.3.0" />
+        <PackageReference Include="Futurum.Core" Version="1.0.11" />
+        <PackageReference Include="Futurum.Microsoft.Extensions.DependencyInjection" Version="1.0.3" />
+        <PackageReference Include="Scrutor" Version="4.2.0" />
+        <PackageReference Update="MinVer" Version="4.0.0" />
     </ItemGroup>
 
 </Project>
