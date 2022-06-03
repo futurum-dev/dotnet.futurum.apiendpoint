@@ -1,4 +1,7 @@
-# dotnet.futurum.apiendpoint
+# Futurum.ApiEndpoint
 
-![CI](https://github.com/futurum-dev/dotnet.futurum.apiendpoint/workflows/CI/badge.svg)
-[![NuGet version](https://img.shields.io/nuget/v/futurum.apiendpoint.svg?style=flat&label=nuget%3A%20futurum.apiendpoint)](https://www.nuget.org/packages/futurum.apiendpoint)
+![license](https://img.shields.io/github/license/futurum-dev/dotnet.futurum.apiendpoint?style=for-the-badge)
+![CI](https://img.shields.io/github/workflow/status/futurum-dev/dotnet.futurum.apiendpoint/CI/main?style=for-the-badge)
+[![NuGet version](https://img.shields.io/nuget/v/futurum.apiendpoint?style=for-the-badge)](https://www.nuget.org/packages/futurum.apiendpoint)
+
+A dotnet library, that is the base for ApiEndpoints in Futurum.
